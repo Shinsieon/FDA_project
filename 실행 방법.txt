@@ -1,0 +1,12 @@
+*사용된 라이브러리 설치 
+pip install pandas
+pip install numpy
+pip install scipy
+pip install python-dateutil
+pip install plotly
+pip install Datetime
+
+1. optimize.ipynb를 차례대로 실행합니다.
+2. 투자성향, 투자기간(1월,4월,7월,11월 중 하나를 입력하시기 바랍니다), 룩백 기간 등을 입력한 후 "최적화 완료" 가 뜰 때까지 기다립니다.
+*fama 5 industry의 경우 3초~5초, fama 10 industry의 경우 5초~7초 정도 소요됩니다.)
+3. 압축을 푸신 폴더에 Result.html이라는 파일이 생성될 것이고 클릭하시면 결과를 확인하실 수 있습니다.
